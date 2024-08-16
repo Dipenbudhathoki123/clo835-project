@@ -1,0 +1,7 @@
+#!/bin/bash
+docker build -t db -f Dockerfile_mysql .
+docker build -t app .
+docker compose up db
+## let that terminal remain open,
+## in new terminal
+docker compose up app

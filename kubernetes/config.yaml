@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: final-config
+  namespace: final
+data:
+  GROUP_NAME: DipenBudhathoki
+  PORT: "81"
+  APP_COLOR: blue
+  BUCKET_NAME: dipenprojectclo835
+  IMAGE_KEY: bgrian.jpg
+  DBPORT: "3306"
